@@ -1,0 +1,41 @@
+HAZARDSCOUT REAL-PHONE SETUP
+============================
+
+Configured PC IPv4 address:
+192.168.100.23
+
+Configured API base URL:
+http://192.168.100.23/hazardscout/server/api/
+
+Server folder expected on the computer:
+C:\laragon\www\hazardscout\server\
+
+Before running the app:
+1. Start Laragon and make sure Apache and MySQL are running.
+2. Connect the Android phone and computer to the same Wi-Fi network.
+3. On the PHONE browser, open:
+   http://192.168.100.23/hazardscout/server/api/health.php
+4. The page should return JSON showing that the API is online.
+5. If the phone cannot open it, allow Apache/httpd through Windows Defender Firewall
+   for Private networks and verify the PC IPv4 address has not changed.
+6. Open HazardScout > Settings > Test Connection.
+
+ABOUT PAGE
+----------
+The project is configured for five group members. Replace these resources:
+- app/src/main/res/values/strings.xml
+  Update all five names, student numbers, programme codes, tasks, and GitHub URL.
+- app/src/main/res/drawable-nodpi/member_1.png through member_5.png
+  Replace each placeholder with the correct member profile photo, keeping the same filenames.
+
+ANDROID STUDIO
+--------------
+Open the HazardScout_MobileApp folder, not only the app folder.
+Then use:
+File > Sync Project with Gradle Files
+Build > Clean Project
+Build > Rebuild Project
+
+If an older installation still uses a previous server address, this version automatically
+migrates the old emulator address to the configured real-phone address. You can also press
+Settings > Reset Real Phone URL.

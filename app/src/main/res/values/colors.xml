@@ -1,0 +1,14 @@
+<resources>
+    <color name="hazard_blue">#123B63</color>
+    <color name="hazard_blue_dark">#08243F</color>
+    <color name="hazard_orange">#F57C00</color>
+    <color name="hazard_green">#2E7D32</color>
+    <color name="hazard_red">#C62828</color>
+    <color name="hazard_building">#8E5B00</color>
+    <color name="hazard_bg">#F4F7FB</color>
+    <color name="hazard_card">#FFFFFF</color>
+    <color name="hazard_text">#172033</color>
+    <color name="hazard_text_secondary">#4D5B6A</color>
+    <color name="hazard_border">#D7E0EA</color>
+    <color name="hazard_link">#0B57D0</color>
+</resources>

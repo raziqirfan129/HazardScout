@@ -1,0 +1,12 @@
+<resources>
+    <style name="Theme.HazardScout" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/hazard_blue</item>
+        <item name="colorPrimaryDark">@color/hazard_blue_dark</item>
+        <item name="colorAccent">@color/hazard_orange</item>
+        <item name="android:windowBackground">@color/hazard_bg</item>
+        <item name="android:fontFamily">sans</item>
+        <item name="android:navigationBarColor">@color/hazard_blue_dark</item>
+        <item name="android:statusBarColor">@color/hazard_blue_dark</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

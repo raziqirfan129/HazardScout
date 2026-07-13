@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">HazardScout</string>
+    <string name="app_tagline">Crowdsourced known hazards</string>
+    <string name="app_description">HazardScout helps mobile users view their current position, discover known hazards downloaded dynamically from a server, and submit new crowdsourced hazard reports.</string>
+    <string name="report_title">Report a Hazard</string>
+    <string name="about_title">About HazardScout</string>
+    <string name="settings_title">Settings</string>
+    <string name="github_url">https://github.com/raziqirfan129/HazardScout</string>
+    <string name="copyright">Copyright © 2026 HazardScout ICT602 Group. All rights reserved.</string>
+    <string name="version_format">Version %1$s</string>
+    <string name="task_format">Task: %1$s</string>
+
+    <string name="status_loading_hazards">Downloading dynamic hazard markers from the server…</string>
+    <string name="status_waiting_gps">Waiting for GPS. The map is temporarily using the default location.</string>
+    <string name="error_no_internet">No internet connection. Connect to Wi-Fi or mobile data, then retry.</string>
+    <string name="error_server_connection">Cannot connect to the HazardScout server. Check the server URL, XAMPP, firewall, and Wi-Fi.</string>
+    <string name="error_server_data">The server responded but did not return hazard data.</string>
+    <string name="error_invalid_server_data">The server returned an invalid data format.</string>
+    <string name="location_services_disabled">Location services are disabled. Turn on GPS or network location.</string>
+    <string name="location_permission_title">Location permission</string>
+    <string name="location_permission_message">HazardScout needs location access to display your current position on the map.</string>
+    <string name="location_report_permission_message">Location access is required to capture the GPS coordinates of the hazard report.</string>
+    <string name="location_permission_denied">Location permission was denied. Current-position and accurate reporting features are unavailable.</string>
+    <string name="continue_text">Continue</string>
+    <string name="you_are_here">You are here</string>
+    <plurals name="hazard_count">
+        <item quantity="one">%d dynamic hazard marker loaded from the server.</item>
+        <item quantity="other">%d dynamic hazard markers loaded from the server.</item>
+    </plurals>
+
+    <string name="report_form_heading">Crowdsourcing report form</string>
+    <string name="report_form_help">Your report is saved in the server database and appears as a dynamic marker for other users.</string>
+    <string name="reporter_name_hint">Your full name</string>
+    <string name="location_hint">Location name or nearby landmark</string>
+    <string name="description_hint">Describe the hazard clearly, including the risk or disruption</string>
+    <string name="gps_not_captured">GPS: not captured yet</string>
+    <string name="gps_waiting">GPS: waiting for current location…</string>
+    <string name="use_current_gps">Use Current GPS</string>
+    <string name="submit_report">Submit Hazard Report</string>
+    <string name="submitting">Submitting…</string>
+    <string name="error_name">Enter a valid name with at least 2 characters.</string>
+    <string name="error_location">Enter a clear location or landmark.</string>
+    <string name="error_description">Provide a clearer description with at least 8 characters.</string>
+    <string name="error_gps_required">Capture GPS coordinates before submitting.</string>
+    <string name="report_success">Hazard report submitted successfully.</string>
+    <string name="report_failed">The report could not be saved.</string>
+
+    <string name="about_application">Application Information</string>
+    <string name="about_categories">Supported categories: Road Hazards, Environmental Hazards, and Building Hazards.</string>
+    <string name="about_github">Project website / GitHub</string>
+    <string name="about_developers">Developers and Assigned Tasks</string>
+    <string name="replace_photos_note">Before submission, replace all five sample profile images and member placeholders with your group’s real information.</string>
+
+    <string name="theme_heading">Appearance</string>
+    <string name="theme_help">Choose a functional Day/Night theme. System follows the phone setting.</string>
+    <string name="theme_system">System default</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="server_heading">Server connection</string>
+    <string name="server_help">Real phone server: http://192.168.100.23/hazardscout/server/api/\nThe phone and computer must use the same Wi-Fi network.</string>
+    <string name="server_url_hint">Server API base URL</string>
+    <string name="save_settings">Save Settings</string>
+    <string name="test_connection">Test Connection</string>
+    <string name="reset_default">Reset Real Phone URL</string>
+    <string name="error_server_url">URL must begin with http:// or https://</string>
+    <string name="settings_saved">Settings saved.</string>
+    <string name="testing_connection">Testing connection…</string>
+    <string name="connection_success">Connection successful. The HazardScout API is online.</string>
+    <string name="connection_failed">Connection failed. Check the URL, server, firewall, and network.</string>
+
+    <string-array name="hazard_categories">
+        <item>Road Hazards</item>
+        <item>Environmental Hazards</item>
+        <item>Building Hazards</item>
+    </string-array>
+
+    <!-- Replace these placeholders before submission. Keep all arrays the same length. -->
+    <string-array name="member_names">
+        <item>MUHAMMAD IRFAN RAZIQ BIN RASSELAN</item>
+        <item>DANISH LUQMAN AYOB BIN ZULKEFLE</item>
+        <item>MUHAMMAD IRFAN NIESA RAZIS</item>
+        <item>MUHAMMAD NOOR HAMQZAH BIN MOHAMAD SOBLEE</item>
+        <item>MUHAMMAD AIMAN IZHAM BIN ASFARIZAL</item>
+    </string-array>
+    <string-array name="member_student_numbers">
+        <item>Student Number: 2025180871</item>
+        <item>Student Number: 2025569047</item>
+        <item>Student Number: 2025110281</item>
+        <item>Student Number: 2025148709</item>
+        <item>Student Number: 2025100665</item>
+    </string-array>
+    <string-array name="member_programmes">
+        <item>Group: RCDCS2515B</item>
+        <item>Group: RCDCS2515B</item>
+        <item>Group: RCDCS2515B</item>
+        <item>Group: RCDCS2515B</item>
+        <item>Group: RCDCS2515B</item>
+    </string-array>
+    <string-array name="member_tasks">
+        <item>Android application structure, navigation, and application integration</item>
+        <item>PHP API, MySQL database, and admin web interface</item>
+        <item>GPS location, OpenStreetMap, dynamic markers, and marker information</item>
+        <item>UI/UX, custom icons, Day/Night themes, validation, and testing</item>
+        <item>Written report, screenshots, GitHub repository, and YouTube demonstration</item>
+    </string-array>
+</resources>

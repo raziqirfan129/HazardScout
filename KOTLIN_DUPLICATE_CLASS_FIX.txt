@@ -1,0 +1,16 @@
+KOTLIN DUPLICATE-CLASS FIX INCLUDED
+===================================
+
+The app module now:
+- Uses the Kotlin 1.8.22 BOM.
+- Adds kotlin-stdlib 1.8.22 explicitly.
+- Excludes obsolete kotlin-stdlib-jdk7 and kotlin-stdlib-jdk8 artifacts.
+- Forces all transitive Kotlin standard-library requests to version 1.8.22.
+
+After opening the project:
+1. File > Sync Project with Gradle Files
+2. Build > Clean Project
+3. Build > Rebuild Project
+
+If Android Studio still displays an error from an older cached project, close Android Studio,
+delete the project-level .gradle folder and app/build folder, reopen the project, and sync.
